@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/ui-new.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">基本信息</h1>
+		</header>
+		<div class="mui-content">
+			<form class="mui-input-group">
+				<div class="mui-input-row">
+					<label>头像</label>
+					<img src="images/qing-tou.png" class="mui-touxiang"/>
+				</div>
+				<div class="mui-input-row">
+					<label>姓名</label>
+					<input type="text" placeholder="请输入姓名" class="txt_a">
+				</div>
+				<div class="clear_fixd10"></div>
+				<div class="mui-input-row">
+					<label>公司</label>
+					<input type="text" placeholder="请输入公司名称" class="txt_a">
+				</div>
+				<div class="mui-input-row">
+					<label>电话</label>
+					<input type="text" placeholder="请输入电话号码" class="txt_a">
+				</div>
+				<div class="mui-input-row">
+					<label>邮箱</label>
+					<input type="text" placeholder="请输入电子邮箱" class="txt_a">
+				</div>
+			</form>
+		</div>
+		<div class="mui-contents">
+			<button type="button" class="mui-btn mui-btn-primary btn_x" onclick="return false;">确认</button>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script src="js/mui.previewimage.js"></script>
+		<script src="js/mui.zoom.js"></script>
+		<script>
+			mui.init();
+		</script>
+	</body>
+
+</html>

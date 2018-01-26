@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>饮水机</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/ui-new.css" />
+		<link rel="stylesheet" type="text/css" href="css/myicon.css" />
+	</head>
+
+	<body>
+		<!-- 主界面不动、菜单移动 -->
+		<!-- 侧滑导航根容器 -->
+		<div class="mui-off-canvas-wrap mui-draggable mui-slide-in">
+			<!-- 主页面容器 -->
+			<div class="mui-inner-wrap">
+				<!-- 主页面标题 -->
+				<nav class="mui-bar mui-bar-tab">
+					<a class="mui-tab-item mui-active" id="index"> <span class="icon iconfont icon-zixun"></span><br/>
+						<span class="mui-tab-label">资讯中心</span> </a>
+					<a class="mui-tab-item"> <span class="icon iconfont icon-zulinchengjiaoguanli1"></span><br/>
+						<span class="mui-tab-label">租赁中心</span> </a>
+					<a class="mui-tab-item" id="my_admin" href="info.html"> <span class="icon iconfont icon-geren"></span><br/>
+						<span class="mui-tab-label">个人中心</span> </a>
+				</nav>
+				<div class="mui-content mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<div class="index-title"> <img src="images/headimg.png" /> </div>
+						<div class="buy-water">
+							<a href="water.html"><img src="images/buywator.png" /></a>
+						</div>
+						<!-- 主界面具体展示内容 -->
+						<ul class="mui-table-view mui-grid-view mui-grid-9">
+							<li class="mui-table-view-cell mui-col-xs-4 mui-col-sm-3">
+								<a href="muw.html" class="indexs">
+									<div class="mui-cell-round orange"><span class="icon iconfont icon-yinshuiji"></span></div>
+									<div class="mui-media-body mui-media-body-new">机号买水</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-col-xs-4 mui-col-sm-3">
+								<a href="recharge.html" class="indexs">
+									<div class="mui-cell-round ching"><span class="icon iconfont icon-chongzhi"></span></div>
+									<div class="mui-media-body mui-media-body-new">会员充值</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-col-xs-4 mui-col-sm-3">
+								<a href="machine.html" class="indexs">
+									<div class="mui-cell-round red"><span class="icon iconfont icon-shebei"></span></div>
+									<div class="mui-media-body mui-media-body-new">租赁设备</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mui-off-canvas-backdrop"></div>
+			</div>
+		</div>
+	</body>
+
+</html>

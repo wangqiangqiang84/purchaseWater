@@ -1,0 +1,243 @@
+{
+	"index.html": {
+		"resources": [
+			"images/images/index-logo.png",
+			"js/mui.min.js",
+			"css/iconfont.css",
+			"fonts/mui.ttf",
+			"images/index-bj.jpg",
+			"css/mui.min.css",
+			"js/update.js",
+			"fonts/iconfont.ttf",
+			"js/mui.js",
+			"css/ui-new.css"
+		],
+		"refer": [
+			"APP/admin/femtocel.html",
+			"APP/admin/jumper.html",
+			"APP/admin/ticket.html",
+			"APP/admin/line.html",
+			"APP/admin/note.html",
+			"APP/admin/my.html",
+			"APP/contractor/ticket.html",
+			"APP/admin/polling.html",
+			"APP/contractor/note.html",
+			"recharge.html",
+			"muw.html",
+			"machine.html",
+			"info.html",
+			"water.html"
+		]
+	},
+	"APP/admin/femtocel.html": {
+		"resources": [
+			"js/jquery-1.11.3.min.js",
+			"fonts/mui.ttf",
+			"js/layer.js",
+			"js/need/layer.css",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"js/mui.js",
+			"css/ui-new.css"
+		],
+		"refer": [
+			"APP/admin/femtocell-details.html",
+			"APP/admin/femtocell-add.html"
+		]
+	},
+	"APP/admin/femtocell-add.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"js/mui.js",
+			"css/ui-new.css"
+		]
+	},
+	"APP/admin/jumper.html": {
+		"resources": [
+			"js/jquery-1.11.3.min.js",
+			"fonts/mui.ttf",
+			"images/60x60.gif",
+			"css/iconfont.css",
+			"js/layer.js",
+			"css/mui.min.css",
+			"js/need/layer.css",
+			"js/mui.js",
+			"css/ui-new.css"
+		],
+		"refer": [
+			"APP/admin/jumper-add.html"
+		]
+	},
+	"APP/admin/ticket.html": {
+		"resources": [
+			"js/jquery-1.11.3.min.js",
+			"fonts/mui.ttf",
+			"images/60x60.gif",
+			"css/iconfont.css",
+			"js/layer.js",
+			"css/mui.min.css",
+			"js/need/layer.css",
+			"js/mui.js",
+			"css/ui-new.css"
+		],
+		"refer": [
+			"APP/admin/ticket-add.html",
+			"APP/admin/ticket-details.html"
+		]
+	},
+	"APP/admin/line-road.html": {
+		"refer": [
+			"APP/admin/line-details.html"
+		]
+	},
+	"APP/admin/line.html": {
+		"resources": [
+			"js/jquery-1.11.3.min.js",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"js/layer.js",
+			"css/mui.min.css",
+			"js/need/layer.css",
+			"js/mui.js",
+			"css/ui-new.css"
+		],
+		"refer": [
+			"APP/admin/line-road.html"
+		]
+	},
+	"APP/admin/note.html": {
+		"resources": [
+			"js/jquery-1.11.3.min.js",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"js/layer.js",
+			"css/mui.min.css",
+			"js/need/layer.css",
+			"js/mui.js",
+			"css/ui-new.css"
+		],
+		"refer": [
+			"APP/admin/note-add.html"
+		]
+	},
+	"APP/admin/my.html": {
+		"resources": [
+			"js/jquery-1.11.3.min.js",
+			"css/iconfont.css",
+			"js/layer.js",
+			"css/mui.min.css",
+			"js/need/layer.css",
+			"js/mui.js",
+			"css/ui-new.css",
+			"fonts/mui.ttf",
+			"fonts/iconfont.ttf"
+		],
+		"refer": [
+			"APP/admin/my-resetpwd.html",
+			"index.html"
+		]
+	},
+	"APP/contractor/ticket.html": {
+		"resources": [
+			"js/jquery-1.11.3.min.js",
+			"fonts/mui.ttf",
+			"images/60x60.gif",
+			"js/layer.js",
+			"js/need/layer.css",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"js/mui.js",
+			"css/ui-new.css"
+		],
+		"refer": [
+			"APP/contractor/ticket-details.html"
+		]
+	},
+	"APP/contractor/ticket-details.html": {
+		"refer": [
+			"APP/contractor/ticket-solve.html"
+		],
+		"resources": [
+			"js/jquery-1.11.3.min.js",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"js/layer.js",
+			"css/mui.min.css",
+			"js/need/layer.css",
+			"js/mui.js",
+			"css/ui-new.css"
+		]
+	},
+	"APP/admin/polling.html": {
+		"resources": [
+			"js/jquery-1.11.3.min.js",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"js/layer.js",
+			"css/mui.min.css",
+			"js/need/layer.css",
+			"js/mui.js",
+			"css/ui-new.css"
+		]
+	},
+	"APP/contractor/note.html": {
+		"resources": [
+			"js/jquery-1.11.3.min.js",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"js/layer.js",
+			"css/mui.min.css",
+			"js/need/layer.css",
+			"js/mui.js",
+			"css/ui-new.css"
+		]
+	},
+	"APP/admin/ticket-add.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"js/mui.js",
+			"css/ui-new.css"
+		]
+	},
+	"recharge.html": {
+		"refer": [
+			"index.html",
+			"info.html"
+		]
+	},
+	"muw.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"machine.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"info.html": {
+		"refer": [
+			"index.html",
+			"recharge.html",
+			"integral.html"
+		]
+	},
+	"water.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"integral.html": {
+		"resources": [
+			"integral_sub.html"
+		],
+		"refer": [
+			"integral_sub.html",
+			"info.html"
+		]
+	}
+}

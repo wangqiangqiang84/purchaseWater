@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/ui-new.css" rel="stylesheet" />
+		<link href="css/myicon.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">包期充值</h1>
+		</header>
+		<div class="mui-content_recch" style="height: 170px;">
+			<div class="mui-distance"><span class="blance">2017-10-10</span></br><span class="txt">到期时间</span></div>
+			<div class="mui-clearfix"></div>
+			<ul class="moreinfo">
+				<li style="text-align: left; padding-left: 15px;">账户余额：20000</li>
+				<li style="text-align: right; padding-right: 15px;"><a href="recharge.html" style="color: #fffc00;">充值&nbsp;<span class="mui-icon mui-icon-arrowright"></span></a></li>
+			</ul>
+		</div>
+		<div class="mui-contents">
+			<ul class="mui-table-view mui-grid-view mui-grid-9 chongzhi">
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+					<a href="#" class="change active">900元/3个月</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+					<a href="#" class="change">1200元/4个月</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+					<a href="#" class="change">1500元/5个月</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 padding_x">
+					<a href="#" class="change">1800元/6个月</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 padding_x">
+					<a href="#" class="change">2700元/9个月</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3 padding_x">
+					<a href="#" class="change defind">自定义</a>
+				</li>
+			</ul>
+		</div>
+		<div class="mui-contents">
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell" id="weixin">
+					<a class="mui-navigate-right">
+						<span class="icon iconfont icon-weixin weixin"></span>&nbsp;微信支付
+					</a>
+				</li>
+				<li class="mui-table-view-cell" id="zhifubao">
+					<a class="mui-navigate-right">
+						<span class="icon iconfont icon-zhifubao zhifubao"></span>&nbsp;支付宝支付
+					</a>
+				</li>
+			</ul>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			$(function() {
+				$(".chongzhi>li>a").click(function() {
+					$(".chongzhi>li>a").removeClass("active");
+					$(this).addClass("active");
+				})
+			});
+		</script>
+	</body>
+</html>
